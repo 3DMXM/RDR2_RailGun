@@ -84,7 +84,7 @@ class SpawnDriveableUFO : public MenuItemSwitchable
 			  y÷· + : ∑≈¥Û
 			  y÷· - : Àı–°
 			*/
-			if (IsKeyDownLong(87))	velocityFinal.z += Speed; playAudio();	//W
+			if (IsKeyDownLong(87))	velocityFinal.z += Speed;	//W
 			if (IsKeyDownLong(83))	velocityFinal.z -= Speed;	//S
 			if (IsKeyDownLong(65))	velocityFinal.x -= Speed;	//A
 			if (IsKeyDownLong(68))	velocityFinal.x += Speed;	//D

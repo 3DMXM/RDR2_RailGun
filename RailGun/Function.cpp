@@ -301,13 +301,13 @@ float getHeightAboveGround(Vector3 position)
 	GAMEPLAY::GET_GROUND_Z_FOR_3D_COORD(position.x, position.y, 1000.0f, &groundZ, true);
 	return groundZ;
 }
-
-void playAudio()
-{
-	AUDIO::STOP_SOUND_FRONTEND("NAV_RIGHT", "HUD_SHOP_SOUNDSET");
-	AUDIO::PLAY_SOUND_FRONTEND("NAV_RIGHT", "HUD_SHOP_SOUNDSET", 1, 0);
-
-}
+//
+//void playAudio()
+//{
+//	AUDIO::STOP_SOUND_FRONTEND("NAV_RIGHT", "HUD_SHOP_SOUNDSET");
+//	AUDIO::PLAY_SOUND_FRONTEND("NAV_RIGHT", "HUD_SHOP_SOUNDSET", 1, 0);
+//
+//}
 
 //对网页进行转码
 wchar_t* Convert(CString str, int targetCodePage)
@@ -384,9 +384,7 @@ string CheckUpdates()
 			if (reader.parse((string)retbuf, root)) {
 				//js = json::parse((string)retbuf);	//str to json
 				string newVs = root["mods_version"].asString();	//获取版本
-				double newVf = stof(newVs);			//转为float
-
-
+				double newVf = stof(newVs);			//转为 double
 				const double eps = 1e-6;//double 判断大小需要对大的数 - eps 或对小的数 + eps
 				// 判断是否有更新
 				if (newVf - eps > nowV)		return v + "[有更新可用]";
