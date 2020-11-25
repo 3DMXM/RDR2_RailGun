@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{edeacf96-527c-4033-9f9a-62abdaf03c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{c31fdf28-e5d0-4be8-9947-fdfbc0fa8ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function">
+      <UniqueIdentifier>{3286fed8-efef-44d6-9e03-24670c64d791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{b35a5ed5-06ca-4e7c-b0c7-91e355faf009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function\RailGun">
+      <UniqueIdentifier>{45c4e780-365d-4f0a-af8a-77483d85b1ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\enums.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\main.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\nativeCaller.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\natives.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\types.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="script.h" />
+    <ClInclude Include="keyboard.h" />
+    <ClInclude Include="scriptmenu.h" />
+    <ClInclude Include="json\json\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json\json-forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="RailGun.h">
+      <Filter>Function\RailGun</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="script.cpp" />
+    <ClCompile Include="keyboard.cpp" />
+    <ClCompile Include="scriptmenu.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="json\jsoncpp.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Function</Filter>
+    </ClCompile>
+    <ClCompile Include="RailGun.cpp">
+      <Filter>Function\RailGun</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\ScriptHookRDR2.lib">
+      <Filter>lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/RailGun/v16
+/RailGun/x64/Release
+/RailGun/tmp/Release
+/RailGun/data/CarPack
+/RailGun/bin/Release

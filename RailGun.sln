@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RailGun", "RailGun\RailGun.vcxproj", "{3BD23FEA-3402-4528-93D8-95CC7B85ECCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BD23FEA-3402-4528-93D8-95CC7B85ECCF}.Release|x64.ActiveCfg = Release|x64
+		{3BD23FEA-3402-4528-93D8-95CC7B85ECCF}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D652A97A-E84B-465A-BCEC-9B8C1F14E921}
+	EndGlobalSection
+EndGlobal
