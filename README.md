@@ -8,6 +8,11 @@
 
 上帝视角部分参考了gopro2027的源码：https://github.com/gopro2027/RDR2Playground
 
+## 另外
+ - 禁止将项目中的代码用于线上或收费内容中
+ - 如果项目中的代码给了您启示或帮助，别忘了分享给他人哦
+ - 
+
 ## 所需插件：
 Script Hook RDR2：http://www.dev-c.com/rdr2/scripthookrdr2
 
